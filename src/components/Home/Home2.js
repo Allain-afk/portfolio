@@ -16,7 +16,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              ALLOW ME <span className="purple"> INTRODUCE </span> MYSELF
+              ALLOW ME TO <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
@@ -28,7 +28,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of interest's are building interactable &nbsp;
+              My field of interest's are building interactable&nbsp;
               <i>
                 <b className="purple">Website and Applications </b> and
                 also in areas related to the development using{" "}
