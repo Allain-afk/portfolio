@@ -8,7 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import perso_website from "../../Assets/Projects/perso-website.png";
+import persoWebsite from "../../Assets/Projects/perso-website.png";
 import LIMS from "../../Assets/Projects/LIMS.png";  // Add this import
 
 function Projects() {
@@ -36,7 +36,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={perso_website}
+              imgPath={persoWebsite}
               isBlog={false}
               title="Personal Website"
               description="Personal Website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and provides a way for visitors to get in touch with me."
