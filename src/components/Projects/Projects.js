@@ -36,7 +36,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={persoWebsite}
+              imgPath={persoWebsite}  // Changed from perso_website to persoWebsite
               isBlog={false}
               title="Personal Website"
               description="Personal Website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and provides a way for visitors to get in touch with me."
@@ -47,7 +47,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={perso_website}
+              imgPath={persoWebsite}
               isBlog={false}
               title="Personal Website"
               description="Personal Website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and provides a way for visitors to get in touch with me."
