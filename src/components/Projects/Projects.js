@@ -9,6 +9,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import persoWebsite from "../../Assets/Projects/perso-website.png";
+import trading from "../../Assets/Projects/trading.png";
 import LIMS from "../../Assets/Projects/LIMS.png";  // Add this import
 
 function Projects() {
@@ -36,7 +37,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={persoWebsite}  // Changed from perso_website to persoWebsite
+              imgPath={persoWebsite}  
               isBlog={false}
               title="Personal Website"
               description="Personal Website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and provides a way for visitors to get in touch with me."
@@ -47,12 +48,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={persoWebsite}
+              imgPath={trading}
               isBlog={false}
-              title="Personal Website"
-              description="Personal Website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and provides a way for visitors to get in touch with me."
-              ghLink="https://github.com/Allain-afk/AllainAutobiography"
-              demoLink="https://allain-afk.github.io/AllainAutobiography/"              
+              title="JackMar Trading Website"
+              description="A professional trading website built for a client to highlight Malaysia’s global export strengths and strategic trade infrastructure, with a focus on clarity, credibility, and modern design."
+              ghLink="https://github.com/maricel-jackson/trading"
+              demoLink="https://maricel-jackson.github.io/trading/"              
             />
           </Col>
 
