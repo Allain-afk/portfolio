@@ -32,6 +32,7 @@ function Projects() {
               title="Library Information Management System"
               description="A Library Information Management System (LIMS) is software that helps manage library resources, track loans, and organize user accounts efficiently."
               ghLink="https://github.com/Allain-afk/LIMS-A-v1"
+              demoLink="https://bookkinglibrary.com/"
             />
           </Col>
 
